@@ -1,12 +1,14 @@
 import React from "react";
-import Header from "./components/Header";
+import Navbar from "./components/Navbar";
+import "./App.scss";
 
-function App() {
-  return (
+const App = () => (
     <div className="App">
-      <Header />
+      <Navbar  />
     </div>
-  );
-}
+);
+
 
 export default App;
+
+// Header text="Magbank é incrível!" color= "#F12" -> Era o que estava escrito antes como exemplo para mostrar os demais componentes 
